@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Aby" id="0" name="CanvasControllerTest" package="edu.nyu.cs.canvas.test" skipped="0" tests="10" time="0.096" timestamp="2016-05-16T02:28:55">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ant.file.type.Canvas-PS5" value="file" />
+
+          <property name="docs.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\docs" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_75\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="java.runtime.version" value="1.7.0_75-b13" />
+
+          <property name="user.name" value="abhis_000" />
+
+          <property name="build.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\bin" />
+
+          <property name="testsrc.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\testsrc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\bin" />
+
+          <property name="reports.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\reports" />
+
+          <property name="ant.project.default-target" value="runAll" />
+
+          <property name="ant.project.name" value="Canvas-PS5" />
+
+          <property name="java.version" value="1.7.0_75" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_75\jre" />
+
+          <property name="dist.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\dist" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.75-b04" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\abhis_000" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Eclipse Setup\eclipse;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/lib/amd64;C:\Python 3.5\Scripts\;C:\Python 3.5\;C:\Program Files (x86)\PHP\v5.6;C:\Program Files\Java\jdk1.7.0_75\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsof;C:\Program Files (x86)\nodejs\;C:\Program Files\Google\Google Apps Migration\;C:\Program Files\Google\Google Apps Sync\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;%ANT_HOME%\bin;C:\Program Files\Java\jdk1.7.0_75\bin;C:\GNAT\2014\bin;C:\Program Files (x86)\Nmap;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\abhis_000\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Eclipse Setup\eclipse;;.;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\338\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1463365675299 -Declipse.connect.port=59396 -Declipse.pdebuild.home=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+          <property name="java.class.path" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-antlr.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bcel.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bsf.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-log4j.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-oro.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-regexp.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-resolver.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-xalan2.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-logging.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-net.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jai.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-javamail.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jdepend.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jmf.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jsch.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-netrexx.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-swing.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-testutil.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\57\0\.cp\lib\antdebug.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\57\0\.cp\lib\remote.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\58\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_75\lib\tools.jar;C:\Eclipse Setup\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.2.v20150203-1351.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ABHIS_~1\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\src" />
+
+          <property name="ant.project.invoked-targets" value="runAll" />
+
+          <property name="ant.file.Canvas-PS5" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+      </properties>
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testNullModelRegistration" time="0.005" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testPaintPropertiesUpdate" time="0.058" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testAddRemoveObserver" time="0.001" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testPointAdditionToModel" time="0.002" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testSingleton" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testUpdates" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testEndLineSegment" time="0.001" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testObserver_Registration" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testNullObserver" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasControllerTest" name="testObserver_DeRegistration" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Aby" id="1" name="CanvasModelTest" package="edu.nyu.cs.canvas.test" skipped="0" tests="9" time="0.006" timestamp="2016-05-16T02:28:55">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ant.file.type.Canvas-PS5" value="file" />
+
+          <property name="docs.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\docs" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_75\jre\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="java.runtime.version" value="1.7.0_75-b13" />
+
+          <property name="user.name" value="abhis_000" />
+
+          <property name="build.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\bin" />
+
+          <property name="testsrc.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\testsrc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\bin" />
+
+          <property name="reports.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\reports" />
+
+          <property name="ant.project.default-target" value="runAll" />
+
+          <property name="ant.project.name" value="Canvas-PS5" />
+
+          <property name="java.version" value="1.7.0_75" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_75\jre" />
+
+          <property name="dist.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\dist" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.75-b04" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\abhis_000" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="C:\Eclipse Setup\eclipse;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_75/bin/../jre/lib/amd64;C:\Python 3.5\Scripts\;C:\Python 3.5\;C:\Program Files (x86)\PHP\v5.6;C:\Program Files\Java\jdk1.7.0_75\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsof;C:\Program Files (x86)\nodejs\;C:\Program Files\Google\Google Apps Migration\;C:\Program Files\Google\Google Apps Sync\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;%ANT_HOME%\bin;C:\Program Files\Java\jdk1.7.0_75\bin;C:\GNAT\2014\bin;C:\Program Files (x86)\Nmap;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\abhis_000\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Eclipse Setup\eclipse;;.;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\338\0\.cp" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1463365675299 -Declipse.connect.port=59396 -Declipse.pdebuild.home=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+          <property name="java.class.path" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-antlr.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bcel.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-bsf.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-log4j.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-oro.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-regexp.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-resolver.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-apache-xalan2.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-logging.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-commons-net.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jai.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-javamail.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jdepend.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jmf.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-jsch.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-netrexx.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-swing.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-testutil.jar;C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\57\0\.cp\lib\antdebug.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\57\0\.cp\lib\remote.jar;C:\Eclipse Setup\eclipse\configuration\org.eclipse.osgi\58\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.7.0_75\lib\tools.jar;C:\Eclipse Setup\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.2.v20150203-1351.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Eclipse Setup/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\ABHIS_~1\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\Eclipse Setup\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="src.dir" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\src" />
+
+          <property name="ant.project.invoked-targets" value="runAll" />
+
+          <property name="ant.file.Canvas-PS5" value="C:\Users\abhis_000\eclipseworkspace\CanvasSunday\build.xml" />
+
+      </properties>
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testAddNullPointToModel" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testCanvasPointBuilder" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testNumberOfPointsInModel" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testModelPaintProperties" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testSingleton" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testNullAndInvalidModelPaintProperties" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testModelReset" time="0.0" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testAddSegmentToModel" time="0.001" />
+
+      <testcase classname="edu.nyu.cs.canvas.test.CanvasModelTest" name="testAddPointToModel" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
